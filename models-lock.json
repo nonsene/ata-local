@@ -1,0 +1,18 @@
+{
+  "pyannote/speaker-diarization-community-1": {
+    "revision": "3533c8cf8e369892e6b79ff1bf80f7b0286a54ee",
+    "directory": "speaker-diarization-community-1"
+  },
+  "Qwen/Qwen3-ASR-1.7B": {
+    "revision": "7278e1e70fe206f11671096ffdd38061171dd6e5",
+    "directory": "Qwen3-ASR-1.7B"
+  },
+  "Qwen/Qwen3-ForcedAligner-0.6B": {
+    "revision": "c7cbfc2048c462b0d63a45797104fc9db3ad62b7",
+    "directory": "Qwen3-ForcedAligner-0.6B"
+  },
+  "unsloth/Qwen3.5-9B-GGUF": {
+    "revision": "3885219b6810b007914f3a7950a8d1b469d598a5",
+    "filename": "Qwen3.5-9B-Q8_0.gguf"
+  }
+}

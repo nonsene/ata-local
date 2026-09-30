@@ -1,0 +1,10 @@
+{
+  "asr_model": "models/Qwen3-ASR-1.7B",
+  "aligner_model": "models/Qwen3-ForcedAligner-0.6B",
+  "diarization_model": "models/speaker-diarization-community-1",
+  "summary_model": "models/Qwen3.5-9B-Q8_0.gguf",
+  "llama_server": "runtime/llama/llama-server.exe",
+  "context_size": 16384,
+  "gpu_layers": 99,
+  "asr_window_seconds": 40
+}

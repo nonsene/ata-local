@@ -1,0 +1,26 @@
+[project]
+name = "ata-local"
+version = "0.1.0"
+description = "Reuniões, transcrição e atas inteiramente locais no Windows"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "fastapi>=0.115,<1", "uvicorn>=0.53,<1", "pyaudiowpatch==0.2.12.8",
+  "numpy>=2,<3", "scipy>=1.14,<2", "soundfile>=0.13,<1", "httpx>=0.28,<1",
+  "huggingface-hub>=0.34,<1", "qwen-asr==0.0.6", "pyannote.audio>=4,<5"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["ata_local*"]
+
+[tool.setuptools.package-data]
+ata_local = ["static/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
